@@ -25,7 +25,7 @@ while True:
         break
 
 descricao_salvar = '\n'.join(lista_descricao)
-with open('descricoes_vagas.txt', 'w') as f:
+with open('descricoes_vagas.txt', 'w',encoding='utf-8') as f:
     f.write(descricao_salvar)
 
 driver.quit()
